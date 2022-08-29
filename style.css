@@ -8038,8 +8038,10 @@ section {
         text-align: center; } }
   .top-recruit__header p {
     font-size: 1.25rem;
-    color: #ff00a2;
+    color: #fff;
     margin: 0; }
+  .top-recruit__header p span {
+    color: #ff00a2; }
     @media (max-width: 767.98px) {
       .top-recruit__header p {
         font-size: 1.125rem; } }

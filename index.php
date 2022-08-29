@@ -37,30 +37,22 @@
       </div>
     </div>
   </div>
-  <!-- <div class="top-recruit">
+  <div class="top-recruit">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12">
           <div class="top-recruit__header">
-            <h2>スタッフ募集</h2>
-            <p>16時〜20時までのパートタイム</p>
-            <p>時給：900円〜</p>
-          </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <div class="top-recruit__body">
             <p>
-              散策後、帰ってこられたお客様への
-              接客対応や洗濯、アイロンがけ等の軽作業。
-              能力により昇給有。
-              詳しくは、じゅぱんまでお問い合わせください。
-              <span>※随時面接を受け付けております。</span>
+              2022年10月1日より<br>
+              コロナの影響により生地の価格高騰に伴い一部価格改定をさせていただきます。<br class="d-none d-md-block">
+              <span>女性一般コース5500〜6600円</span>に変更させていただきます。<br class="d-none d-md-block">
+              あしからずご了承の程宜しくお願い致します。
             </p>
           </div>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
   <div class="top-contents">
     <section>
       <div class="container">
