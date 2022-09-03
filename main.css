@@ -51,6 +51,31 @@ body a {
   .cafe__news__time {
     text-align: right; }
 
+.cafe__menu .card {
+  background-color: transparent;
+  border: none;
+  padding: 10px; }
+  @media (max-width: 768px) {
+    .cafe__menu .card {
+      padding: 0; } }
+
+.cafe__menu .card-title {
+  font-size: 1rem;
+  font-weight: bold; }
+  @media (max-width: 768px) {
+    .cafe__menu .card-title {
+      font-size: 0.75rem; } }
+
+.cafe__menu .card-text {
+  font-size: 0.75rem; }
+
+@media (max-width: 768px) {
+  .cafe__menu .card-body {
+    padding: 8px; } }
+
+.cafe__menu .card-img-top {
+  border-radius: 50%; }
+
 #footer.cafe {
   background-color: #333;
   color: #f9f8f3;

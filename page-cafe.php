@@ -85,6 +85,96 @@ get_header("cafe"); ?>
       </div>
     </div>
   </section>
+  <section id="cafe-menu">
+    <div class="container">
+      <h2 class="cafe__title"><span>CAFE MENU</span></h2>
+      <div class="cafe__menu">
+        <div class="row">
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="https://placehold.jp/600x600.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">商品名が入ります。</h3>
+                <p class="card-text">簡単な商品説明があれば入れてください。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="https://placehold.jp/600x600.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">商品名が入ります。</h3>
+                <p class="card-text">簡単な商品説明があれば入れてください。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="https://placehold.jp/600x600.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">商品名が入ります。</h3>
+                <p class="card-text">簡単な商品説明があれば入れてください。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="https://placehold.jp/600x600.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">商品名が入ります。</h3>
+                <p class="card-text">簡単な商品説明があれば入れてください。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="https://placehold.jp/600x600.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">商品名が入ります。</h3>
+                <p class="card-text">簡単な商品説明があれば入れてください。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="https://placehold.jp/600x600.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">商品名が入ります。</h3>
+                <p class="card-text">簡単な商品説明があれば入れてください。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="https://placehold.jp/600x600.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">商品名が入ります。</h3>
+                <p class="card-text">簡単な商品説明があれば入れてください。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="https://placehold.jp/600x600.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">商品名が入ります。</h3>
+                <p class="card-text">簡単な商品説明があれば入れてください。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="https://placehold.jp/600x600.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">商品名が入ります。</h3>
+                <p class="card-text">簡単な商品説明があれば入れてください。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 
 <?php get_footer("cafe"); ?>
