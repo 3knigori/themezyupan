@@ -175,6 +175,58 @@ get_header("cafe"); ?>
       </div>
     </div>
   </section>
+  <section id="cafe-store">
+    <div class="cafe__store">
+      <div class="row g-0">
+        <div class="col-md-6">
+          <img class="cafe__store__image" src="https://placehold.jp/800x600.png" alt="...">
+        </div>
+        <div class="col-md-6">
+          <div class="cafe__store__item">
+            <h2>STUDIO A</h2>
+            <p>
+              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。<br>
+              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。<br>
+              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。<br>
+              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row g-0 flex-md-row-reverse">
+        <div class="col-md-6">
+          <img class="cafe__store__image" src="https://placehold.jp/800x600.png" alt="...">
+        </div>
+        <div class="col-md-6">
+          <div class="cafe__store__item">
+            <h2>STUDIO B</h2>
+            <p>
+              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。<br>
+              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。<br>
+              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。<br>
+              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row g-0">
+        <div class="col-md-6">
+          <img class="cafe__store__image" src="https://placehold.jp/800x600.png" alt="...">
+        </div>
+        <div class="col-md-6">
+          <div class="cafe__store__item">
+            <h2>STUDIO C</h2>
+            <p>
+              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。<br>
+              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。<br>
+              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。<br>
+              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 
 <?php get_footer("cafe"); ?>
