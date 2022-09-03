@@ -43,6 +43,48 @@ get_header("cafe"); ?>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <section id="cafe-news">
+    <div class="container">
+      <h2 class="cafe__title"><span>NEWS</span></h2>
+      <div class="cafe__news">
+        <div class="cafe__news__item">
+          <div class="cafe__news__time">2020/00/00 Sunday</div>
+          <dl>
+            <dt>新着情報のタイトルが入ります</dt>
+            <dd>本文が入ります。本文が入ります。本文が入ります。本文が入ります。</dd>
+          </dl>
+        </div>
+        <div class="cafe__news__item">
+          <div class="cafe__news__time">2020/00/00 Sunday</div>
+          <dl>
+            <dt>新着情報のタイトルが入ります</dt>
+            <dd>本文が入ります。本文が入ります。本文が入ります。本文が入ります。</dd>
+          </dl>
+        </div>
+        <div class="cafe__news__item">
+          <div class="cafe__news__time">2020/00/00 Sunday</div>
+          <dl>
+            <dt>新着情報のタイトルが入ります</dt>
+            <dd>本文が入ります。本文が入ります。本文が入ります。本文が入ります。</dd>
+          </dl>
+        </div>
+        <div class="cafe__news__item">
+          <div class="cafe__news__time">2020/00/00 Sunday</div>
+          <dl>
+            <dt>新着情報のタイトルが入ります</dt>
+            <dd>本文が入ります。本文が入ります。本文が入ります。本文が入ります。</dd>
+          </dl>
+        </div>
+        <div class="cafe__news__item">
+          <div class="cafe__news__time">2020/00/00 Sunday</div>
+          <dl>
+            <dt>新着情報のタイトルが入ります</dt>
+            <dd>本文が入ります。本文が入ります。本文が入ります。本文が入ります。</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 
 <?php get_footer("cafe"); ?>

@@ -5,11 +5,51 @@ body.cafe {
 body a {
   color: #ccc; }
 
+.cafe section {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
 .cafe__description {
   font-size: 0.75rem;
   font-weight: bold;
   padding: 10px 15px;
   margin: 0; }
+
+.cafe__title {
+  position: relative;
+  margin-bottom: 30px; }
+  .cafe__title::before {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #333; }
+  .cafe__title span {
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    margin: 0 2.5em;
+    padding: 0 1em;
+    background-color: #f9f8f3;
+    text-align: left; }
+
+.cafe__news {
+  height: 300px;
+  overflow-y: scroll; }
+  .cafe__news > div + div {
+    border-top: 1px solid #ccc;
+    margin-top: 15px;
+    padding-top: 15px; }
+  .cafe__news__item dd {
+    margin: 0; }
+    @media (max-width: 768px) {
+      .cafe__news__item dd {
+        font-size: 0.75rem; } }
+  .cafe__news__time {
+    text-align: right; }
 
 #footer.cafe {
   background-color: #333;
