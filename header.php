@@ -26,6 +26,7 @@
     <meta content='width=device-width,user-scalable=0' name='viewport'>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
     <script src='<?php echo get_template_directory_uri(); ?>/script.js' type='text/javascript'></script>
     <?php wp_head(); ?>
   </head>

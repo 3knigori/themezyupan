@@ -97,14 +97,6 @@ function add_query_vars_filter( $vars ){
 add_filter( 'query_vars', 'add_query_vars_filter' );
 
 /*
- CSSの読み込み設定追加
- */
-function zyupan_scripts() {
-  wp_enqueue_style( 'zyupan-style', get_stylesheet_uri() );
-}
-add_action( 'wp_enqueue_scripts', 'zyupan_scripts' );
-
-/*
  画像サポート
  */
 add_theme_support( 'post-thumbnails' );

@@ -115,7 +115,7 @@ get_header("under"); ?>
               <li>
                 <dl>
                   <dt>女性  一般コース</dt>
-                  <dd class="en">5,500円　→　<span class="color">5,170円</span></dd>
+                  <dd class="en">6,600円　→　<span class="color">6,270円</span></dd>
                 </dl>
               </li>
               <li>

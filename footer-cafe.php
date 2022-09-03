@@ -16,20 +16,33 @@
 
 
   <footer id="footer" class="cafe">
+    <div class="container">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#">CAFE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">STUDIO A</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">STUDIO B</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">STUDIO C</a>
+        </li>
+      </ul>
+      <div class="logo-nav">
+        <a href="<?php echo home_url('/') ?>">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/header/logo-under.png" alt="京都レンタル着物じゅぱん"/>
+        </a>
+        <p>ほんとの京都をしってはる？</p>
+        <p>着物がメイン？ いえ、あなたが主役です。</p>
+      </div>
+    </div>
     <div class="copyright-wrap">
-      <p>
-        <a class="policy" href="<?php echo home_url('/privacy') ?>">Site Policy...</a>
-      </p>
-      <p>
-        このサイトはreCAPTCHAによって保護されており、Googleの<a href="https://policies.google.com/privacy">プライバシーポリシー</a>と<a href="https://policies.google.com/terms">利用規約</a>が適用されます。
-      </p>
       <p>Copyright(c)Rental Kimono Zyupan. All Rights Reserved.</p>
     </div>
   </footer>
-
-  <a class="footer-link" id="pagetop" href="#top">
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/components/pagetop.png" alt="">
-  </a>
 
   <?php wp_footer(); ?>
 

@@ -34,7 +34,7 @@ get_header("under"); ?>
         <div class="col-12 col-md-8 col-lg-7">
           <h4 class="plan__item-header">
             <span>女性一般コース</span>
-            <span class="en">5,500円</span>
+            <span class="en">6,600円</span>
           </h4>
           <div class="plan__item-body">
             <ul class="plan__item-list">

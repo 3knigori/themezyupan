@@ -1,8 +1,59 @@
 body {
   &.cafe{
+    background-color: #f9f8f3;
     color: #333;
   }
   a {
     color: #ccc;
+  }
+}
+
+.cafe {
+  &__description {
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 0;
+  }
+}
+
+#footer {
+  &.cafe {
+    background-color: #333;
+    color: #f9f8f3;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    .nav {
+      padding-bottom: 20px;
+      border-bottom: 1px solid #fff;
+      margin-bottom: 20px;
+      @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+    .nav-link {
+      color: #f9f8f3;
+    }
+    .logo-nav {
+      width: 250px;
+      margin: 30px auto;
+      a {
+        display: block;
+        margin-bottom: 10px;
+      }
+      p {
+        color: #fff;
+        font-size: .75rem;
+        line-height: 1.5;
+        margin: 0;
+      }
+    }
+    .copyright-wrap {
+      text-align: center;
+      p {
+        margin: 0;
+      }
+    }
   }
 }
