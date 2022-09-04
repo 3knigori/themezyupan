@@ -5,6 +5,9 @@ body.cafe {
 body a {
   color: #ccc; }
 
+.grecaptcha-badge {
+  visibility: hidden; }
+
 .cafe section {
   padding-top: 30px;
   padding-bottom: 30px; }
@@ -100,6 +103,36 @@ body a {
   .cafe__store__item p {
     margin: 0;
     line-height: 2rem; }
+
+.studio__main__image {
+  position: relative;
+  height: 200px; }
+  .studio__main__image img {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%); }
+
+.studio__wrap {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  .studio__wrap .row > div {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+
+.studio__item .modal-content {
+  background-color: unset; }
+
+.studio__item .thum {
+  display: block;
+  transition: opacity 0.5s ease !important; }
+  .studio__item .thum:hover, .studio__item .thum:focus {
+    opacity: 0.5; }
+  .studio__item .thum img {
+    max-width: 100%;
+    width: 100%;
+    height: auto; }
 
 #footer.cafe {
   background-color: #333;

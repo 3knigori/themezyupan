@@ -8,6 +8,8 @@ body {
   }
 }
 
+.grecaptcha-badge { visibility: hidden; }
+
 .cafe {
   section {
     padding-top: 30px;
@@ -118,6 +120,49 @@ body {
       p {
         margin: 0;
         line-height: 2rem;
+      }
+    }
+  }
+}
+
+.studio {
+  &__main {
+    &__image {
+      position: relative;
+      height: 200px;
+      img {
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translateY(-50%) translateX(-50%);
+        -webkit-transform: translateY(-50%) translateX(-50%);
+      }
+    }
+  }
+  &__wrap {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    .row {
+      > div {
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+    }
+  }
+  &__item {
+    .modal-content {
+      background-color:unset;
+    }
+    .thum {
+      display: block;
+      transition: opacity 0.5s ease !important;
+      &:hover, &:focus {
+        opacity: 0.5;
+      }
+      img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
       }
     }
   }

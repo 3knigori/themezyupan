@@ -45,16 +45,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="#">CAFE</a>
+                <a class="nav-link" href="<?php echo home_url('/cafe') ?>">CAFE</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">STUDIO A</a>
+                <a class="nav-link" href="<?php echo home_url('/studioa') ?>">STUDIO A</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">STUDIO B</a>
+                <a class="nav-link" href="<?php echo home_url('/studiob') ?>">STUDIO B</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">STUDIO C</a>
+                <a class="nav-link" href="<?php echo home_url('/studioc') ?>">STUDIO C</a>
               </li>
             </ul>
           </div>
