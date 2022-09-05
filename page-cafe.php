@@ -179,7 +179,7 @@ get_header("cafe"); ?>
     <div class="cafe__about">
       <div class="container">
         <div class="cafe__about__inner">
-          <h2 class="cafe__about__title">CAFE STUDIOとは</h2>
+          <h2 class="cafe__about__title">STUDIO ZYUPANとは</h2>
           <p class="cafe__about__body">
             ここにはSTUDIOの簡単な説明文が入ります。<br>
             ここにはSTUDIOの簡単な説明文が入ります。<br>
