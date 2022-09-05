@@ -175,6 +175,45 @@ get_header("cafe"); ?>
       </div>
     </div>
   </section>
+  <section id="cafe-about">
+    <div class="cafe__about">
+      <div class="container">
+        <div class="cafe__about__inner">
+          <h2 class="cafe__about__title">CAFE STUDIOとは</h2>
+          <p class="cafe__about__body">
+            ここにはSTUDIOの簡単な説明文が入ります。<br>
+            ここにはSTUDIOの簡単な説明文が入ります。<br>
+            ここにはSTUDIOの簡単な説明文が入ります。<br>
+            ここにはSTUDIOの簡単な説明文が入ります。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="cafe-flow">
+    <div class="container">
+      <h2 class="cafe__title"><span>FLOW</span></h2>
+      <div class="cafe__flow">
+        <dl class="cafe__flow__item">
+          <dt><span>STEP.1</span>受付とお支払い</dt>
+          <dd>受付にて【SUDIO A】【SUDIO B】【SUDIO C】より好きなお部屋をCHOICE!</dd>
+        </dl>
+        <dl class="cafe__flow__item">
+          <dt><span>STEP.2</span>お部屋の説明</dt>
+          <dd>カメラ操作の仕方など、簡単に説明</dd>
+        </dl>
+        <dl class="cafe__flow__item">
+          <dt><span>STEP.3</span>撮影</dt>
+          <dd>15分間撮り放題で可愛く自撮りを撮影しちゃおう!</dd>
+        </dl>
+        <dl class="cafe__flow__item">
+          <dt><span>STEP.4</span>受付にてデータをお渡し</dt>
+          <dd>全てのデータを携帯へ転送</dd>
+        </dl>
+        <p class="cafe__flow__text"><span>POINT!</span>プロカメラマン監修のスタジオセッティングなので、誰でも可愛く安心して撮影ができます。</p>
+      </div>
+    </div>
+  </section>
   <section id="cafe-store">
     <div class="cafe__store">
       <div class="row g-0">

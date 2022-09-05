@@ -104,15 +104,77 @@ body a {
     margin: 0;
     line-height: 2rem; }
 
-.studio__main__image {
-  position: relative;
-  height: 200px; }
-  .studio__main__image img {
-    position: absolute;
-    top: 50%;
-    left: 60%;
-    transform: translateY(-50%) translateX(-50%);
-    -webkit-transform: translateY(-50%) translateX(-50%); }
+.cafe__about {
+  background-image: url(https://placehold.jp/900x500.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  .cafe__about__inner {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .cafe__about__title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px; }
+    @media (max-width: 768px) {
+      .cafe__about__title {
+        font-size: 1.5rem; } }
+  .cafe__about__body {
+    text-align: center; }
+
+.cafe__flow__item dt {
+  font-size: 1.25rem;
+  padding: .25em 0 .5em .75em;
+  border-left: 6px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px; }
+  @media (max-width: 768px) {
+    .cafe__flow__item dt {
+      font-size: 1.125rem; } }
+  .cafe__flow__item dt span {
+    padding-right: 20px; }
+
+.cafe__flow__item dd {
+  text-align: right; }
+  @media (max-width: 768px) {
+    .cafe__flow__item dd {
+      text-align: left; } }
+
+.cafe__flow__text {
+  padding-bottom: .5em;
+  border-bottom: 1px solid #ccc;
+  margin-top: 30px;
+  margin-bottom: 0; }
+  .cafe__flow__text span {
+    display: block;
+    margin-bottom: .2em;
+    color: #aaa;
+    font-size: 2rem;
+    letter-spacing: 0.5em; }
+    @media (max-width: 768px) {
+      .cafe__flow__text span {
+        text-align: center; } }
+
+@media (min-width: 1030px) {
+  .studio__main__image {
+    position: relative;
+    height: 200px; } }
+
+.studio__main__image img {
+  max-width: 100%;
+  width: 100%;
+  height: auto; }
+  @media (min-width: 1030px) {
+    .studio__main__image img {
+      position: absolute;
+      top: 50%;
+      left: 60%;
+      transform: translateY(-50%) translateX(-50%);
+      -webkit-transform: translateY(-50%) translateX(-50%); } }
 
 .studio__wrap {
   padding-top: 60px;
