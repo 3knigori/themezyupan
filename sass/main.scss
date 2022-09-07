@@ -1,5 +1,5 @@
 body {
-  &.cafe{
+  &.studio{
     background-color: #f9f8f3;
     color: #333;
   }
@@ -10,7 +10,7 @@ body {
 
 .grecaptcha-badge { visibility: hidden; }
 
-.cafe {
+.studio {
   section {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -48,7 +48,7 @@ body {
     }
   }
   &__news {
-    height: 300px;
+    max-height: 300px;
     overflow-y: scroll;
     > div + div {
       border-top: 1px solid #ccc;
@@ -192,21 +192,23 @@ body {
 .studio {
   &__main {
     &__image {
-      @media (min-width: 1030px) {
-        position: relative;
-        height: 200px;
+      position: relative;
+      height: 200px;
+      background-image: url(https://placehold.jp/800x200.png);
+      background-repeat: no-repeat;
+      background-position: top right;
+      @media (max-width: 768px) {
+        height: 150px;
+        background-position: center;
       }
-      img {
-        max-width: 100%;
-        width: 100%;
-        height: auto;
-        @media (min-width: 1030px) {
-          position: absolute;
-          top: 50%;
-          left: 60%;
-          transform: translateY(-50%) translateX(-50%);
-          -webkit-transform: translateY(-50%) translateX(-50%);
-        }
+      h3 {
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        -webkit-transform: translateY(-50%) translateX(-50%);
+        margin: 0;
       }
     }
   }
@@ -240,7 +242,7 @@ body {
 }
 
 #footer {
-  &.cafe {
+  &.studio {
     background-color: #333;
     color: #f9f8f3;
     padding-bottom: 30px;

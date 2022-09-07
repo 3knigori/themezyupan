@@ -15,7 +15,7 @@
 ?>
 
 
-  <footer id="footer" class="cafe">
+  <footer id="footer" class="studio">
     <div class="map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.5769872699425!2d135.67676342124278!3d35.01729282671757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001a9fe782e7b97%3A0x35d59e52373dd085!2z44CSNjE2LTgzNzMg5Lqs6YO95bqc5Lqs6YO95biC5Y-z5Lqs5Yy65bWv5bOo5aSp6b6N5a-66LuK6YGT55S677yU4oiS77yR77yQ!5e0!3m2!1sja!2sjp!4v1662388044206!5m2!1sja!2sjp" width="100%" height="auto" frameborder="0" style="border:0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
@@ -29,7 +29,7 @@
       </dl>
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link" href="<?php echo home_url('/cafe') ?>">TOP</a>
+          <a class="nav-link" href="<?php echo home_url('/studio') ?>">TOP</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php echo home_url('/studioa') ?>">STUDIO A</a>
@@ -39,6 +39,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php echo home_url('/studioc') ?>">STUDIO C</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo home_url('/cafe') ?>">Ci Cafe Osporon</a>
         </li>
       </ul>
       <div class="logo-nav">

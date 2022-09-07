@@ -2,14 +2,14 @@
 /*
 Template Name: studioB
 */
-get_header("cafe"); ?>
+get_header("studio"); ?>
 
-<main class="cafe">
+<main class="studio">
   <div class="studio__main">
     <div class="container">
-      <h2 class="cafe__title mt-5"><span>STUDIO B</span></h2>
+      <h2 class="studio__title mt-5"><span>STUDIO B</span></h2>
       <div class="studio__main__image">
-        <img src="https://placehold.jp/800x200.png" alt="...">
+        <h3>Photo gallery</h3>
       </div>
       <div class="studio__wrap">
         <div class="row">
@@ -115,4 +115,4 @@ get_header("cafe"); ?>
   </div>
 </main>
 
-<?php get_footer("cafe"); ?>
+<?php get_footer("studio"); ?>

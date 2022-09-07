@@ -33,12 +33,12 @@
     <?php wp_head(); ?>
   </head>
 
-  <body <?php body_class("cafe"); ?>>
-    <h1 class="cafe__description">cafeのh1が入ります。cafeのh1が入ります。</h1>
-    <header id="header" class="cafe">
+  <body <?php body_class("studio"); ?>>
+    <h1 class="studio__description">studioのh1が入ります。studioのh1が入ります。</h1>
+    <header id="header" class="studio">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="<?php echo home_url('/cafe') ?>">STUDIO ZYUPAN</a>
+          <a class="navbar-brand" href="<?php echo home_url('/studio') ?>">STUDIO ZYUPAN</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -52,6 +52,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="<?php echo home_url('/studioc') ?>">STUDIO C</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="<?php echo home_url('/cafe') ?>">Ci Cafe Osporon</a>
               </li>
             </ul>
           </div>

@@ -1,4 +1,4 @@
-body.cafe {
+body.studio {
   background-color: #f9f8f3;
   color: #333; }
 
@@ -8,22 +8,22 @@ body a {
 .grecaptcha-badge {
   visibility: hidden; }
 
-.cafe section {
+.studio section {
   padding-top: 30px;
   padding-bottom: 30px; }
-  .cafe section:last-child {
+  .studio section:last-child {
     padding-bottom: 0; }
 
-.cafe__description {
+.studio__description {
   font-size: 0.75rem;
   font-weight: bold;
   padding: 10px 15px;
   margin: 0; }
 
-.cafe__title {
+.studio__title {
   position: relative;
   margin-bottom: 30px; }
-  .cafe__title::before {
+  .studio__title::before {
     position: absolute;
     top: 50%;
     z-index: 1;
@@ -32,7 +32,7 @@ body a {
     width: 100%;
     height: 1px;
     background-color: #333; }
-  .cafe__title span {
+  .studio__title span {
     position: relative;
     z-index: 2;
     display: inline-block;
@@ -41,140 +41,142 @@ body a {
     background-color: #f9f8f3;
     text-align: left; }
 
-.cafe__news {
-  height: 300px;
+.studio__news {
+  max-height: 300px;
   overflow-y: scroll; }
-  .cafe__news > div + div {
+  .studio__news > div + div {
     border-top: 1px solid #ccc;
     margin-top: 15px;
     padding-top: 15px; }
-  .cafe__news__item dd {
+  .studio__news__item dd {
     margin: 0; }
     @media (max-width: 768px) {
-      .cafe__news__item dd {
+      .studio__news__item dd {
         font-size: 0.75rem; } }
-  .cafe__news__time {
+  .studio__news__time {
     text-align: right; }
 
-.cafe__menu .card {
+.studio__menu .card {
   background-color: transparent;
   border: none;
   padding: 10px; }
   @media (max-width: 768px) {
-    .cafe__menu .card {
+    .studio__menu .card {
       padding: 0; } }
 
-.cafe__menu .card-title {
+.studio__menu .card-title {
   font-size: 1rem;
   font-weight: bold; }
   @media (max-width: 768px) {
-    .cafe__menu .card-title {
+    .studio__menu .card-title {
       font-size: 0.75rem; } }
 
-.cafe__menu .card-text {
+.studio__menu .card-text {
   font-size: 0.75rem; }
 
 @media (max-width: 768px) {
-  .cafe__menu .card-body {
+  .studio__menu .card-body {
     padding: 8px; } }
 
-.cafe__menu .card-img-top {
+.studio__menu .card-img-top {
   border-radius: 50%; }
 
 @media (max-width: 768px) {
-  .cafe__store > div {
+  .studio__store > div {
     margin-bottom: 20px; } }
 
-.cafe__store__image {
+.studio__store__image {
   max-width: 100%;
   width: 100%;
   height: auto; }
 
-.cafe__store__item {
+.studio__store__item {
   padding: 15px; }
-  .cafe__store__item h2 {
+  .studio__store__item h2 {
     padding-bottom: 10px;
     margin-bottom: 20px;
     border-bottom: 1px solid #ccc;
     font-size: 2rem; }
     @media (max-width: 768px) {
-      .cafe__store__item h2 {
+      .studio__store__item h2 {
         font-size: 1.5rem; } }
-  .cafe__store__item p {
+  .studio__store__item p {
     margin: 0;
     line-height: 2rem; }
 
-.cafe__about {
+.studio__about {
   background-image: url(https://placehold.jp/900x500.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 60px;
   padding-bottom: 60px; }
-  .cafe__about__inner {
+  .studio__about__inner {
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
     padding-top: 30px;
     padding-bottom: 30px; }
-  .cafe__about__title {
+  .studio__about__title {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 30px; }
     @media (max-width: 768px) {
-      .cafe__about__title {
+      .studio__about__title {
         font-size: 1.5rem; } }
-  .cafe__about__body {
+  .studio__about__body {
     text-align: center; }
 
-.cafe__flow__item dt {
+.studio__flow__item dt {
   font-size: 1.25rem;
   padding: .25em 0 .5em .75em;
   border-left: 6px solid #ccc;
   border-bottom: 1px solid #ccc;
   margin-bottom: 20px; }
   @media (max-width: 768px) {
-    .cafe__flow__item dt {
+    .studio__flow__item dt {
       font-size: 1.125rem; } }
-  .cafe__flow__item dt span {
+  .studio__flow__item dt span {
     padding-right: 20px; }
 
-.cafe__flow__item dd {
+.studio__flow__item dd {
   text-align: right; }
   @media (max-width: 768px) {
-    .cafe__flow__item dd {
+    .studio__flow__item dd {
       text-align: left; } }
 
-.cafe__flow__text {
+.studio__flow__text {
   padding-bottom: .5em;
   border-bottom: 1px solid #ccc;
   margin-top: 30px;
   margin-bottom: 0; }
-  .cafe__flow__text span {
+  .studio__flow__text span {
     display: block;
     margin-bottom: .2em;
     color: #aaa;
     font-size: 2rem;
     letter-spacing: 0.5em; }
     @media (max-width: 768px) {
-      .cafe__flow__text span {
+      .studio__flow__text span {
         text-align: center; } }
 
-@media (min-width: 1030px) {
-  .studio__main__image {
-    position: relative;
-    height: 200px; } }
-
-.studio__main__image img {
-  max-width: 100%;
-  width: 100%;
-  height: auto; }
-  @media (min-width: 1030px) {
-    .studio__main__image img {
-      position: absolute;
-      top: 50%;
-      left: 60%;
-      transform: translateY(-50%) translateX(-50%);
-      -webkit-transform: translateY(-50%) translateX(-50%); } }
+.studio__main__image {
+  position: relative;
+  height: 200px;
+  background-image: url(https://placehold.jp/800x200.png);
+  background-repeat: no-repeat;
+  background-position: top right; }
+  @media (max-width: 768px) {
+    .studio__main__image {
+      height: 150px;
+      background-position: center; } }
+  .studio__main__image h3 {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    margin: 0; }
 
 .studio__wrap {
   padding-top: 60px;
@@ -196,60 +198,60 @@ body a {
     width: 100%;
     height: auto; }
 
-#footer.cafe {
+#footer.studio {
   background-color: #333;
   color: #f9f8f3;
   padding-bottom: 30px; }
-  #footer.cafe .map {
+  #footer.studio .map {
     height: 0;
     overflow: hidden;
     padding-bottom: 30%;
     position: relative;
     margin-bottom: 60px; }
     @media (max-width: 768px) {
-      #footer.cafe .map {
+      #footer.studio .map {
         padding-bottom: 56.25%; } }
-    #footer.cafe .map iframe {
+    #footer.studio .map iframe {
       position: absolute;
       left: 0;
       top: 0;
       height: 100%;
       width: 100%; }
-  #footer.cafe .information {
+  #footer.studio .information {
     text-align: center;
     margin-bottom: 30px; }
-    #footer.cafe .information dt {
+    #footer.studio .information dt {
       font-size: 2rem;
       letter-spacing: 0.2em; }
       @media (max-width: 768px) {
-        #footer.cafe .information dt {
+        #footer.studio .information dt {
           font-size: 1.5rem; } }
-    #footer.cafe .information p {
+    #footer.studio .information p {
       margin: 0; }
-  #footer.cafe .nav {
+  #footer.studio .nav {
     padding-top: 20px;
     padding-bottom: 20px;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
     margin-bottom: 20px; }
     @media (max-width: 768px) {
-      #footer.cafe .nav {
+      #footer.studio .nav {
         flex-direction: column;
         align-items: center; } }
-  #footer.cafe .nav-link {
+  #footer.studio .nav-link {
     color: #f9f8f3; }
-  #footer.cafe .logo-nav {
+  #footer.studio .logo-nav {
     width: 250px;
     margin: 30px auto; }
-    #footer.cafe .logo-nav a {
+    #footer.studio .logo-nav a {
       display: block;
       margin-bottom: 10px; }
-    #footer.cafe .logo-nav p {
+    #footer.studio .logo-nav p {
       color: #fff;
       font-size: .75rem;
       line-height: 1.5;
       margin: 0; }
-  #footer.cafe .copyright-wrap {
+  #footer.studio .copyright-wrap {
     text-align: center; }
-    #footer.cafe .copyright-wrap p {
+    #footer.studio .copyright-wrap p {
       margin: 0; }
