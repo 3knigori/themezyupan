@@ -34,7 +34,7 @@
   </head>
 
   <body <?php body_class("studio"); ?>>
-    <h1 class="studio__description">studioのh1が入ります。studioのh1が入ります。</h1>
+    <h1 class="studio__description">着付師監修　嵐山「初」映えスタジオで自撮りしちゃおう！</h1>
     <header id="header" class="studio">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">

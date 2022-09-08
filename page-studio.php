@@ -13,25 +13,13 @@ get_header("studio"); ?>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="10000">
-        <img src="https://placehold.jp/800x400.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>テキストが入ります。テキストが入ります。テキストが入ります。</p>
-        </div>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studio/studio_main1.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item" data-bs-interval="2000">
-        <img src="https://placehold.jp/800x400.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>テキストが入ります。テキストが入ります。テキストが入ります。</p>
-        </div>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studio/studio_main2.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="https://placehold.jp/800x400.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>テキストが入ります。テキストが入ります。テキストが入ります。</p>
-        </div>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studio/studio_main3.jpg" class="d-block w-100" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
@@ -92,82 +80,129 @@ get_header("studio"); ?>
         <div class="row">
           <div class="col-6 col-md-4">
             <div class="card">
-              <img src="https://placehold.jp/600x600.png" class="card-img-top" alt="...">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-title">商品名が入ります。</h3>
-                <p class="card-text">簡単な商品説明があれば入れてください。</p>
+                <h3 class="card-title">アールグレーモヒート＆ノンアル</h3>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-4">
             <div class="card">
-              <img src="https://placehold.jp/600x600.png" class="card-img-top" alt="...">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-title">商品名が入ります。</h3>
-                <p class="card-text">簡単な商品説明があれば入れてください。</p>
+                <h3 class="card-title">アプリコットフィズ</h3>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-4">
             <div class="card">
-              <img src="https://placehold.jp/600x600.png" class="card-img-top" alt="...">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-title">商品名が入ります。</h3>
-                <p class="card-text">簡単な商品説明があれば入れてください。</p>
+                <h3 class="card-title">アプリコットマンゴー</h3>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-4">
             <div class="card">
-              <img src="https://placehold.jp/600x600.png" class="card-img-top" alt="...">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu4.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-title">商品名が入ります。</h3>
-                <p class="card-text">簡単な商品説明があれば入れてください。</p>
+                <h3 class="card-title">オレンジスピリッツ＆ノンアル</h3>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-4">
             <div class="card">
-              <img src="https://placehold.jp/600x600.png" class="card-img-top" alt="...">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu5.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-title">商品名が入ります。</h3>
-                <p class="card-text">簡単な商品説明があれば入れてください。</p>
+                <h3 class="card-title">カシスオレンジ</h3>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-4">
             <div class="card">
-              <img src="https://placehold.jp/600x600.png" class="card-img-top" alt="...">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu6.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-title">商品名が入ります。</h3>
-                <p class="card-text">簡単な商品説明があれば入れてください。</p>
+                <h3 class="card-title">カシスソーダ＆ノンアル</h3>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-4">
             <div class="card">
-              <img src="https://placehold.jp/600x600.png" class="card-img-top" alt="...">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu7.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-title">商品名が入ります。</h3>
-                <p class="card-text">簡単な商品説明があれば入れてください。</p>
+                <h3 class="card-title">グランマニエ</h3>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-4">
             <div class="card">
-              <img src="https://placehold.jp/600x600.png" class="card-img-top" alt="...">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu8.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-title">商品名が入ります。</h3>
-                <p class="card-text">簡単な商品説明があれば入れてください。</p>
+                <h3 class="card-title">グリーンアップル＆ノンアル</h3>
               </div>
             </div>
           </div>
           <div class="col-6 col-md-4">
             <div class="card">
-              <img src="https://placehold.jp/600x600.png" class="card-img-top" alt="...">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu9.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h3 class="card-title">商品名が入ります。</h3>
-                <p class="card-text">簡単な商品説明があれば入れてください。</p>
+                <h3 class="card-title">さくら＆ノンアル</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu10.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">しそ</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu11.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">チャイナブルー</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu12.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">ピーチティー</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu13.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">ピーチパイン</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu14.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">ファーグリーン</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu15.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">ファジーネーブル</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu16.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3 class="card-title">モヒート</h3>
               </div>
             </div>
           </div>
