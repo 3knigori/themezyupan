@@ -41,6 +41,14 @@ body a {
     background-color: #f9f8f3;
     text-align: left; }
 
+.studio__subtitle {
+  font-size: 1.25rem;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #333; }
+  .studio__subtitle::first-letter {
+    margin-right: .1em;
+    font-size: 1.5em; }
+
 .studio__news {
   max-height: 300px;
   overflow-y: scroll; }
@@ -56,42 +64,48 @@ body a {
   .studio__news__time {
     text-align: right; }
 
-.studio__menu .card {
-  background-color: transparent;
-  border: none;
-  padding: 10px; }
+.studio__menu {
+  padding-top: 60px;
+  padding-bottom: 60px; }
   @media (max-width: 768px) {
-    .studio__menu .card {
-      padding: 0; } }
-
-.studio__menu .card-title {
-  font-size: 1rem;
-  font-weight: bold; }
+    .studio__menu {
+      padding-top: 30px;
+      padding-bottom: 30px; } }
+  .studio__menu .card {
+    background-color: transparent;
+    border: none;
+    padding: 10px; }
+    @media (max-width: 768px) {
+      .studio__menu .card {
+        padding: 0; } }
+  .studio__menu .card-title {
+    font-size: 1rem;
+    font-weight: bold; }
+    @media (max-width: 768px) {
+      .studio__menu .card-title {
+        font-size: 0.5rem; } }
+  .studio__menu .card-text {
+    font-size: 0.75rem; }
   @media (max-width: 768px) {
-    .studio__menu .card-title {
-      font-size: 0.5rem; } }
-
-.studio__menu .card-text {
-  font-size: 0.75rem; }
-
-@media (max-width: 768px) {
-  .studio__menu .card-body {
-    padding: 8px; } }
-
-.studio__menu .card-img-top {
-  border-radius: 50%; }
+    .studio__menu .card-body {
+      padding: 8px; } }
+  .studio__menu .card-img-top {
+    border-radius: 50%; }
 
 @media (max-width: 768px) {
   .studio__store > div {
     margin-bottom: 20px; } }
 
-.studio__store__image {
+.studio__store__image img {
   max-width: 100%;
   width: 100%;
   height: auto; }
 
 .studio__store__item {
-  padding: 15px; }
+  padding: 20px; }
+  @media (max-width: 768px) {
+    .studio__store__item {
+      padding: 15px; } }
   .studio__store__item h2 {
     padding-bottom: 10px;
     margin-bottom: 20px;
@@ -105,7 +119,7 @@ body a {
     line-height: 2rem; }
 
 .studio__about {
-  background-image: url(https://placehold.jp/900x500.png);
+  background-image: url("./assets/images/studio/studio_about.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -117,6 +131,7 @@ body a {
     padding-top: 30px;
     padding-bottom: 30px; }
   .studio__about__title {
+    color: #fff;
     font-size: 2rem;
     text-align: center;
     margin-bottom: 30px; }
@@ -124,7 +139,9 @@ body a {
       .studio__about__title {
         font-size: 1.5rem; } }
   .studio__about__body {
-    text-align: center; }
+    color: #fff;
+    text-align: center;
+    margin: 0; }
 
 .studio__flow__item dt {
   font-size: 1.25rem;
@@ -159,44 +176,26 @@ body a {
       .studio__flow__text span {
         text-align: center; } }
 
-.studio__main__image {
-  position: relative;
-  height: 200px;
-  background-image: url(https://placehold.jp/800x200.png);
-  background-repeat: no-repeat;
-  background-position: top right; }
-  @media (max-width: 768px) {
-    .studio__main__image {
-      height: 150px;
-      background-position: center; } }
-  .studio__main__image h3 {
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    -webkit-transform: translateY(-50%) translateX(-50%);
-    margin: 0; }
+.studio__main__image img {
+  max-width: 100%;
+  width: 100%;
+  height: auto; }
 
 .studio__wrap {
   padding-top: 60px;
   padding-bottom: 60px; }
+  @media (max-width: 768px) {
+    .studio__wrap {
+      padding-top: 30px;
+      padding-bottom: 30px; } }
   .studio__wrap .row > div {
     padding-top: 15px;
     padding-bottom: 15px; }
 
-.studio__item .modal-content {
-  background-color: unset; }
-
-.studio__item .thum {
-  display: block;
-  transition: opacity 0.5s ease !important; }
-  .studio__item .thum:hover, .studio__item .thum:focus {
-    opacity: 0.5; }
-  .studio__item .thum img {
-    max-width: 100%;
-    width: 100%;
-    height: auto; }
+.studio__item a img {
+  max-width: 100%;
+  width: 100%;
+  height: auto; }
 
 #footer.studio {
   background-color: #333;
@@ -255,3 +254,11 @@ body a {
     text-align: center; }
     #footer.studio .copyright-wrap p {
       margin: 0; }
+
+#LightboxCanvas {
+  max-width: 100%;
+  width: 100%;
+  height: 80%; }
+
+.modal-content {
+  background-color: unset !important; }

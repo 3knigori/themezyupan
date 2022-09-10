@@ -57,6 +57,8 @@
     </div>
   </footer>
 
+  <script async type="text/javascript" src="https://cdn.jsdelivr.net/gh/avalon-studio/Bootstrap-Lightbox/bs5lightbox.js" crossorigin="anonymous"></script>
+
   <?php wp_footer(); ?>
 
   </body>

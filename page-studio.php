@@ -73,143 +73,6 @@ get_header("studio"); ?>
       </div>
     </div>
   </section>
-  <section id="studio-menu">
-    <div class="container">
-      <h2 class="studio__title"><span>CAFE MENU</span></h2>
-      <div class="studio__menu">
-        <div class="row">
-          <div class="col-6 col-md-4">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu1.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">アールグレーモヒート＆ノンアル</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu2.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">アプリコットフィズ</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu3.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">アプリコットマンゴー</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu4.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">オレンジスピリッツ＆ノンアル</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu5.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">カシスオレンジ</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu6.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">カシスソーダ＆ノンアル</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu7.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">グランマニエ</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu8.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">グリーンアップル＆ノンアル</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu9.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">さくら＆ノンアル</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu10.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">しそ</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu11.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">チャイナブルー</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu12.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">ピーチティー</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu13.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">ピーチパイン</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu14.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">ファーグリーン</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu15.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">ファジーネーブル</h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4">
-            <div class="card">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafemenu/cafemenu16.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h3 class="card-title">モヒート</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   <section id="studio-about">
     <div class="studio__about">
       <div class="container">
@@ -253,7 +116,9 @@ get_header("studio"); ?>
     <div class="studio__store">
       <div class="row g-0">
         <div class="col-md-6">
-          <img class="studio__store__image" src="https://placehold.jp/800x600.png" alt="...">
+          <div class="studio__store__image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studio/main_studioA_top.jpg" alt="">
+          </div>
         </div>
         <div class="col-md-6">
           <div class="studio__store__item">
@@ -269,7 +134,9 @@ get_header("studio"); ?>
       </div>
       <div class="row g-0 flex-md-row-reverse">
         <div class="col-md-6">
-          <img class="studio__store__image" src="https://placehold.jp/800x600.png" alt="...">
+          <div class="studio__store__image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studio/main_studioB_top.jpg" alt="">
+          </div>
         </div>
         <div class="col-md-6">
           <div class="studio__store__item">
@@ -285,7 +152,9 @@ get_header("studio"); ?>
       </div>
       <div class="row g-0">
         <div class="col-md-6">
-          <img class="studio__store__image" src="https://placehold.jp/800x600.png" alt="...">
+          <div class="studio__store__image">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studio/main_studioC_top.jpg" alt="">
+          </div>
         </div>
         <div class="col-md-6">
           <div class="studio__store__item">
