@@ -141,7 +141,8 @@ body a {
   .studio__about__body {
     color: #fff;
     text-align: center;
-    margin: 0; }
+    margin: 0;
+    line-height: 2; }
 
 .studio__flow__item dt {
   font-size: 1.25rem;

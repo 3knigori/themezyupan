@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: cafe
+Template Name: Ci Cafe Osporon
 */
 get_header("studio"); ?>
 

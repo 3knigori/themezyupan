@@ -9,7 +9,7 @@ get_header("studio"); ?>
     <div class="container">
       <h2 class="studio__title mt-5"><span>STUDIO B</span></h2>
       <div class="studio__main__image">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioB/main_studioB.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioB/main_studioB.jpg" alt="STUDIO B">
       </div>
       <div class="studio__wrap">
         <h2 class="studio__subtitle">Photo gallery</h2>

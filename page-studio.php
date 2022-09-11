@@ -36,38 +36,10 @@ get_header("studio"); ?>
       <h2 class="studio__title"><span>NEWS</span></h2>
       <div class="studio__news">
         <div class="studio__news__item">
-          <div class="studio__news__time">2020/00/00 Sunday</div>
+          <div class="studio__news__time">2022/09/11 Sunday</div>
           <dl>
-            <dt>新着情報のタイトルが入ります</dt>
-            <dd>本文が入ります。本文が入ります。本文が入ります。本文が入ります。</dd>
-          </dl>
-        </div>
-        <div class="studio__news__item">
-          <div class="studio__news__time">2020/00/00 Sunday</div>
-          <dl>
-            <dt>新着情報のタイトルが入ります</dt>
-            <dd>本文が入ります。本文が入ります。本文が入ります。本文が入ります。</dd>
-          </dl>
-        </div>
-        <div class="studio__news__item">
-          <div class="studio__news__time">2020/00/00 Sunday</div>
-          <dl>
-            <dt>新着情報のタイトルが入ります</dt>
-            <dd>本文が入ります。本文が入ります。本文が入ります。本文が入ります。</dd>
-          </dl>
-        </div>
-        <div class="studio__news__item">
-          <div class="studio__news__time">2020/00/00 Sunday</div>
-          <dl>
-            <dt>新着情報のタイトルが入ります</dt>
-            <dd>本文が入ります。本文が入ります。本文が入ります。本文が入ります。</dd>
-          </dl>
-        </div>
-        <div class="studio__news__item">
-          <div class="studio__news__time">2020/00/00 Sunday</div>
-          <dl>
-            <dt>新着情報のタイトルが入ります</dt>
-            <dd>本文が入ります。本文が入ります。本文が入ります。本文が入ります。</dd>
+            <dt>京都嵐山初！お洒落に撮れるセルフスタジオ♪</dt>
+            <dd>2022年8月1日にOpenしました！とっても可愛いスタジオが3部屋もあるんです♪誰にも見られる事なく思いっきり自撮りしちゃいませんか？</dd>
           </dl>
         </div>
       </div>
@@ -79,10 +51,14 @@ get_header("studio"); ?>
         <div class="studio__about__inner">
           <h2 class="studio__about__title">STUDIO ZYUPANとは</h2>
           <p class="studio__about__body">
-            ここにはSTUDIOの簡単な説明文が入ります。<br>
-            ここにはSTUDIOの簡単な説明文が入ります。<br>
-            ここにはSTUDIOの簡単な説明文が入ります。<br>
-            ここにはSTUDIOの簡単な説明文が入ります。
+            嵐山で創業14年人気の着物レンタルzyupanが姉妹店スタジオzyupanを作りました。<br>
+            着付師監修なので、着物でも可愛く撮れる様に考えたセルフスタジオです！<br>
+            プロカメラマンが丁寧にセッティングした本格機材が揃っているので安心して写真が撮れます！<br class="d-none d-md-block">
+            cafeスペースではちょっと大人のノンアルカクテルや、もちろんお酒もビール、カクテルをご用意！<br class="d-none d-md-block">
+            食べ歩きをするなら元フレンチレストランのシェフがお洒落にブルスケッタも♪<br class="d-none d-md-block">
+            ブルスケッタは自分でカスタマイズ出来ます。<br>
+            その他プリクラ(ハルイロセカイ)も設置しています。<br class="d-none d-md-block">
+            とことん写真映えを狙うなら是非ご来店ください。
           </p>
         </div>
       </div>
@@ -124,10 +100,7 @@ get_header("studio"); ?>
           <div class="studio__store__item">
             <h2>STUDIO A</h2>
             <p>
-              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。<br>
-              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。<br>
-              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。<br>
-              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。
+              たくさんのアンティーク調のお花をあしらったcute & cuteなお部屋。壁紙も海外から取り寄せて、こだわっています。日本には無い壁紙がよりお花と貴女を可愛く見せてくれる事間違いなし！フラワーシャワーを浴びた様な可愛い写真が撮れます。とことん可愛いを追求するならスタジオA！
             </p>
           </div>
         </div>
@@ -142,10 +115,7 @@ get_header("studio"); ?>
           <div class="studio__store__item">
             <h2>STUDIO B</h2>
             <p>
-              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。<br>
-              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。<br>
-              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。<br>
-              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。
+              たくさんのアンティークのペンダントライトをあしらった、ちょっと大人のお部屋です♪こちらも海外から取り寄せた壁紙を使用し足元には白の人工芝を敷き詰めました♪ランプがより素敵に見えるゴールドを基調としたお洒落なお部屋。着物でも洋服でも映えるファッショナブルな空間！大人っぽく写真を撮るならスタジオB！
             </p>
           </div>
         </div>
@@ -160,10 +130,7 @@ get_header("studio"); ?>
           <div class="studio__store__item">
             <h2>STUDIO C</h2>
             <p>
-              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。<br>
-              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。<br>
-              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。<br>
-              STUDIOの店鋪説明文が入ります。STUDIOの店鋪説明文が入ります。
+              全てオリジナルの特注ロールスクリーンを使用したバック紙のお部屋です。デザイン性も抜群でシンプルに可愛くコミカルにを実現しました！白を基調とした幾何学模様のスクリーンとチェックを基調としたcuteなスクリーンとアメコミをイメージし漫画のコマ割りのコミカルなスクリーンが選べます♪いくつもの箱を組み立てて椅子や階段に出来るキューブも自分スタイルで変更可能♪個性的にorシンプルにを選ぶならスタジオC！
             </p>
           </div>
         </div>

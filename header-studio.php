@@ -12,9 +12,9 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js no-svg">
   <head>
-    <title><?php wp_title(' | ',true,'right'); ?><?php bloginfo('name'); ?></title>
-    <meta content='<?php bloginfo('description'); ?>' name='Description'>
-    <meta content='' name='Keywords'>
+    <title><?php wp_title(' | ',true,'right'); ?>お洒落な人は見逃せない！モノじゃなく自分を映えるならスタジオzyupan</title>
+    <meta content='京都で写真映えするならスタジオzyupanで！セルフスタジオなので誰の目も気にせず思いっきり可愛く写真を撮ろう！今度はモノじゃなく自分映えを目指しませんか？着物でも洋服も自撮りをするならココに集まれ♪' name='Description'>
+    <meta content='京都,嵐山,セルフスタジオ,写真館,スタジオ,zyupan,cafe' name='Keywords'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <meta content='telephone=no' name='format-detection'>
     <meta content='SKYPE_TOOLBAR_PARSER_COMPATIBLE' name='SKYPE_TOOLBAR'>
