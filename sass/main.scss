@@ -90,12 +90,19 @@ body {
       @media (max-width: 768px) {
         padding: 0;
       }
+      &.type2 {
+        @media (max-width: 768px) {
+          padding: 10px;
+        }
+      }
     }
     .card-title {
-      font-size: 1rem;
+      font-size: 1.25rem;
       font-weight: bold;
+      font-family: 'Kosugi Maru', sans-serif;
+      text-align: center;
       @media (max-width: 768px) {
-        font-size: 0.5rem;
+        font-size: 1rem;
       }
     }
     .card-text {
@@ -108,6 +115,19 @@ body {
     }
     .card-img-top {
       border-radius: 50%;
+    }
+  }
+  &__price {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    font-family: 'Kosugi Maru', sans-serif;
+    dd {
+      margin: 0;
     }
   }
   &__store {

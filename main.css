@@ -78,12 +78,17 @@ body a {
     @media (max-width: 768px) {
       .studio__menu .card {
         padding: 0; } }
+    @media (max-width: 768px) {
+      .studio__menu .card.type2 {
+        padding: 10px; } }
   .studio__menu .card-title {
-    font-size: 1rem;
-    font-weight: bold; }
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Kosugi Maru', sans-serif;
+    text-align: center; }
     @media (max-width: 768px) {
       .studio__menu .card-title {
-        font-size: 0.5rem; } }
+        font-size: 1rem; } }
   .studio__menu .card-text {
     font-size: 0.75rem; }
   @media (max-width: 768px) {
@@ -91,6 +96,18 @@ body a {
       padding: 8px; } }
   .studio__menu .card-img-top {
     border-radius: 50%; }
+
+.studio__price {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  font-family: 'Kosugi Maru', sans-serif; }
+  .studio__price dd {
+    margin: 0; }
 
 @media (max-width: 768px) {
   .studio__store > div {

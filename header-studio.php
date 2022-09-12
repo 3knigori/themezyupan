@@ -14,7 +14,7 @@
   <head>
     <title><?php wp_title(' | ',true,'right'); ?>お洒落な人は見逃せない！モノじゃなく自分を映えるならスタジオzyupan</title>
     <meta content='京都で写真映えするならスタジオzyupanで！セルフスタジオなので誰の目も気にせず思いっきり可愛く写真を撮ろう！今度はモノじゃなく自分映えを目指しませんか？着物でも洋服も自撮りをするならココに集まれ♪' name='Description'>
-    <meta content='京都,嵐山,セルフスタジオ,写真館,スタジオ,zyupan,cafe' name='Keywords'>
+    <meta content='京都,嵐山,セルフスタジオ,写真館,スタジオ,zyupan,cafe,プリクラ' name='Keywords'>
     <meta content='IE=edge' http-equiv='X-UA-Compatible'>
     <meta content='telephone=no' name='format-detection'>
     <meta content='SKYPE_TOOLBAR_PARSER_COMPATIBLE' name='SKYPE_TOOLBAR'>
@@ -30,6 +30,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <script src='<?php echo get_template_directory_uri(); ?>/script.js' type='text/javascript'></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
     <?php wp_head(); ?>
   </head>
 
