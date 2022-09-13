@@ -2,6 +2,7 @@ body {
   &.studio{
     background-color: #f9f8f3;
     color: #333;
+    font-family: 'Yomogi', cursive;
   }
   a {
     color: #ccc;
@@ -51,9 +52,17 @@ body {
     font-size: 1.25rem;
     padding-bottom: .5em;
     border-bottom: 1px solid #333;
-    &::first-letter {
-      margin-right: .1em;
-      font-size: 1.5em;
+    @media (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+    }
+    span {
+      @media (max-width: 768px) {
+        display: block;
+        text-align: right;
+      }
     }
   }
   &__news {
@@ -99,7 +108,6 @@ body {
     .card-title {
       font-size: 1.25rem;
       font-weight: bold;
-      font-family: 'Kosugi Maru', sans-serif;
       text-align: center;
       @media (max-width: 768px) {
         font-size: 1rem;
@@ -125,10 +133,6 @@ body {
     align-items: center;
     border-bottom: 1px solid #ccc;
     padding: 10px;
-    font-family: 'Kosugi Maru', sans-serif;
-    dd {
-      margin: 0;
-    }
   }
   &__store {
     > div {
@@ -161,6 +165,22 @@ body {
         margin: 0;
         line-height: 2rem;
       }
+    }
+    &__subimagewrap {
+      margin-bottom: 30px;
+      .row {
+        margin-left:-5px;
+        margin-right:-5px;
+        > div {
+          padding-right:5px;
+          padding-left:5px;
+        }
+      }
+    }
+    &__subimage {
+      max-width: 100%;
+      width: 100%;
+      height: auto;
     }
   }
   &__about {

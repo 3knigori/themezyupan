@@ -38,8 +38,8 @@ get_header("studio"); ?>
         <div class="studio__news__item">
           <div class="studio__news__time">2022/09/11 Sunday</div>
           <dl>
-            <dt>京都嵐山初！お洒落に撮れるセルフスタジオ♪</dt>
-            <dd>2022年8月1日にOpenしました！とっても可愛いスタジオが3部屋もあるんです♪誰にも見られる事なく思いっきり自撮りしちゃいませんか？</dd>
+            <dt>京都嵐山初！お洒落に撮れるセルフスタジオ</dt>
+            <dd>2022年8月1日にOpenしました！とっても可愛いスタジオが3部屋もあるんです。誰にも見られる事なく思いっきり自撮りしちゃいませんか？</dd>
           </dl>
         </div>
       </div>
@@ -55,7 +55,7 @@ get_header("studio"); ?>
             着付師監修なので、着物でも可愛く撮れる様に考えたセルフスタジオです！<br>
             プロカメラマンが丁寧にセッティングした本格機材が揃っているので安心して写真が撮れます！<br class="d-none d-md-block">
             cafeスペースではちょっと大人のノンアルカクテルや、もちろんお酒もビール、カクテルをご用意！<br class="d-none d-md-block">
-            食べ歩きをするなら元フレンチレストランのシェフがお洒落にブルスケッタも♪<br class="d-none d-md-block">
+            食べ歩きをするなら元フレンチレストランのシェフがお洒落にブルスケッタも。<br class="d-none d-md-block">
             ブルスケッタは自分でカスタマイズ出来ます。<br>
             その他プリクラ(ハルイロセカイ)も設置しています。<br class="d-none d-md-block">
             とことん写真映えを狙うなら是非ご来店ください。
@@ -115,7 +115,10 @@ get_header("studio"); ?>
           <div class="studio__store__item">
             <h2>STUDIO B</h2>
             <p>
-              たくさんのアンティークのペンダントライトをあしらった、ちょっと大人のお部屋です♪こちらも海外から取り寄せた壁紙を使用し足元には白の人工芝を敷き詰めました♪ランプがより素敵に見えるゴールドを基調としたお洒落なお部屋。着物でも洋服でも映えるファッショナブルな空間！大人っぽく写真を撮るならスタジオB！
+              たくさんのアンティークのペンダントライトをあしらった、
+              ちょっと大人のお部屋です。こちらも海外から取り寄せた壁紙を使用し足元には白の人工芝を敷き詰めました。
+              ランプがより素敵に見えるゴールドを基調としたお洒落なお部屋。
+              着物でも洋服でも映えるファッショナブルな空間！大人っぽく写真を撮るならスタジオB！
             </p>
           </div>
         </div>
@@ -129,8 +132,21 @@ get_header("studio"); ?>
         <div class="col-md-6">
           <div class="studio__store__item">
             <h2>STUDIO C</h2>
+            <div class="studio__store__subimagewrap d-md-none">
+              <div class="row">
+                <div class="col-4">
+                  <img class="studio__store__subimage" src="<?php echo get_template_directory_uri(); ?>/assets/images/studio/studioC1.jpg" alt="studioC">
+                </div>
+                <div class="col-4">
+                  <img class="studio__store__subimage" src="<?php echo get_template_directory_uri(); ?>/assets/images/studio/studioC2.jpg" alt="studioC">
+                </div>
+                <div class="col-4">
+                  <img class="studio__store__subimage" src="<?php echo get_template_directory_uri(); ?>/assets/images/studio/studioC3.jpg" alt="studioC">
+                </div>
+              </div>
+            </div>
             <p>
-              全てオリジナルの特注ロールスクリーンを使用したバック紙のお部屋です。デザイン性も抜群でシンプルに可愛くコミカルにを実現しました！白を基調とした幾何学模様のスクリーンとチェックを基調としたcuteなスクリーンとアメコミをイメージし漫画のコマ割りのコミカルなスクリーンが選べます♪いくつもの箱を組み立てて椅子や階段に出来るキューブも自分スタイルで変更可能♪個性的にorシンプルにを選ぶならスタジオC！
+              全てオリジナルの特注ロールスクリーンを使用したバック紙のお部屋です。デザイン性も抜群でシンプルに可愛くコミカルにを実現しました！白を基調とした幾何学模様のスクリーンとチェックを基調としたcuteなスクリーンとアメコミをイメージし漫画のコマ割りのコミカルなスクリーンが選べます。いくつもの箱を組み立てて椅子や階段に出来るキューブも自分スタイルで変更可能。個性的にorシンプルにを選ぶならスタジオC！
             </p>
           </div>
         </div>

@@ -12,7 +12,7 @@ get_header("studio"); ?>
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafe/main_cafe.jpg" alt="Ci Cafe Osporon">
       </div>
       <div class="studio__menu">
-        <h2 class="studio__subtitle">Bruschetta</h2>
+        <h2 class="studio__subtitle">ブルスケッタ<span>800円（税込）</span></h2>
         <div class="row">
           <div class="col-6 col-md-4">
             <div class="card type2">
@@ -37,8 +37,16 @@ get_header("studio"); ?>
         </div>
       </div>
       <div class="studio__menu">
-        <h2 class="studio__subtitle">DRINK MENU Alcohol</h2>
+        <h2 class="studio__subtitle">大人のカクテル<span>650円（税込）</span></h2>
         <div class="row">
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafe/cafemenu1.jpg" class="card-img-top" alt="アールグレーモヒート＆ノンアル">
+              <div class="card-body">
+                <h3 class="card-title">アールグレー<br>モヒート</h3>
+              </div>
+            </div>
+          </div>
           <div class="col-6 col-md-4">
             <div class="card">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafe/cafemenu2.jpg" class="card-img-top" alt="アプリコットフィズ">
@@ -57,6 +65,14 @@ get_header("studio"); ?>
           </div>
           <div class="col-6 col-md-4">
             <div class="card">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafe/cafemenu4.jpg" class="card-img-top" alt="オレンジスピリッツ＆ノンアル">
+              <div class="card-body">
+                <h3 class="card-title">オレンジ<br class="d-block d-md-none">スピリッツ</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafe/cafemenu5.jpg" class="card-img-top" alt="カシスオレンジ">
               <div class="card-body">
                 <h3 class="card-title">カシスオレンジ</h3>
@@ -65,9 +81,33 @@ get_header("studio"); ?>
           </div>
           <div class="col-6 col-md-4">
             <div class="card">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafe/cafemenu6.jpg" class="card-img-top" alt="カシスソーダ＆ノンアル">
+              <div class="card-body">
+                <h3 class="card-title">カシスソーダ</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafe/cafemenu7.jpg" class="card-img-top" alt="グランマニエ">
               <div class="card-body">
                 <h3 class="card-title">グランマニエ</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafe/cafemenu8.jpg" class="card-img-top" alt="グリーンアップル＆ノンアル">
+              <div class="card-body">
+                <h3 class="card-title">グリーンアップル</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafe/cafemenu9.jpg" class="card-img-top" alt="さくら＆ノンアル">
+              <div class="card-body">
+                <h3 class="card-title">さくら</h3>
               </div>
             </div>
           </div>
@@ -130,13 +170,13 @@ get_header("studio"); ?>
         </div>
       </div>
       <div class="studio__menu">
-        <h2 class="studio__subtitle">DRINK MENU Non-Alcoholic</h2>
+        <h2 class="studio__subtitle">ちょっと大人のノンアルカクテル<span>650円（税込）</span></h2>
         <div class="row">
           <div class="col-6 col-md-4">
             <div class="card">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafe/cafemenu1.jpg" class="card-img-top" alt="アールグレーモヒート＆ノンアル">
               <div class="card-body">
-                <h3 class="card-title">アールグレー<br>モヒート<br class="d-block d-md-none">＆ノンアル</h3>
+                <h3 class="card-title">アールグレー<br>モヒート</h3>
               </div>
             </div>
           </div>
@@ -144,7 +184,7 @@ get_header("studio"); ?>
             <div class="card">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafe/cafemenu4.jpg" class="card-img-top" alt="オレンジスピリッツ＆ノンアル">
               <div class="card-body">
-                <h3 class="card-title">オレンジ<br class="d-block d-md-none">スピリッツ<br>＆ノンアル</h3>
+                <h3 class="card-title">オレンジ<br class="d-block d-md-none">スピリッツ</h3>
               </div>
             </div>
           </div>
@@ -152,7 +192,7 @@ get_header("studio"); ?>
             <div class="card">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafe/cafemenu6.jpg" class="card-img-top" alt="カシスソーダ＆ノンアル">
               <div class="card-body">
-                <h3 class="card-title">カシスソーダ<br>＆ノンアル</h3>
+                <h3 class="card-title">カシスソーダ</h3>
               </div>
             </div>
           </div>
@@ -160,7 +200,7 @@ get_header("studio"); ?>
             <div class="card">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafe/cafemenu8.jpg" class="card-img-top" alt="グリーンアップル＆ノンアル">
               <div class="card-body">
-                <h3 class="card-title">グリーンアップル<br>＆ノンアル</h3>
+                <h3 class="card-title">グリーンアップル</h3>
               </div>
             </div>
           </div>
@@ -168,25 +208,17 @@ get_header("studio"); ?>
             <div class="card">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cafe/cafemenu9.jpg" class="card-img-top" alt="さくら＆ノンアル">
               <div class="card-body">
-                <h3 class="card-title">さくら＆ノンアル</h3>
+                <h3 class="card-title">さくら</h3>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="studio__menu">
-        <h2 class="studio__subtitle">PRICE</h2>
-        <dl class="studio__price">
-          <dt>大人のカクテル</dt>
-          <dd>650円（税込）</dd>
-        </dl>
+        <h2 class="studio__subtitle">その他ドリンクメニュー価格</h2>
         <dl class="studio__price">
           <dt>ビール</dt>
           <dd>550円（税込）</dd>
-        </dl>
-        <dl class="studio__price">
-          <dt>ちょっと大人の<br class="d-block d-md-none">ノンアルコール</dt>
-          <dd>650円（税込）</dd>
         </dl>
         <dl class="studio__price">
           <dt>大人のソフトドリンク</dt>
