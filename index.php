@@ -37,19 +37,22 @@
       </div>
     </div>
   </div>
+  <div class="top-studio-bnr">
+    <div class="container">
+      <a href="<?php echo home_url('/studio') ?>">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/page/top/studio_banner.jpg" alt="studio zyupan" />
+      </a>
+    </div>
+  </div>
   <div class="top-recruit">
     <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="top-recruit__header">
-            <p>
-              2022年10月1日より<br>
-              コロナの影響により生地の価格高騰に伴い一部価格改定をさせていただきます。<br class="d-none d-md-block">
-              <span>女性一般コース5500から6600円</span>に変更させていただきます。<br class="d-none d-md-block">
-              あしからずご了承の程宜しくお願い致します。
-            </p>
-          </div>
-        </div>
+      <div class="top-recruit__header">
+        <p>
+          2022年10月1日より<br>
+          コロナの影響により生地の価格高騰に伴い一部価格改定をさせていただきます。<br class="d-none d-md-block">
+          <span>女性一般コース5500から6600円</span>に変更させていただきます。<br class="d-none d-md-block">
+          あしからずご了承の程宜しくお願い致します。
+        </p>
       </div>
     </div>
   </div>

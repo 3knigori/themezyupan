@@ -20,6 +20,9 @@ body a {
   font-weight: bold;
   padding: 10px 15px;
   margin: 0; }
+  @media (max-width: 768px) {
+    .studio__description {
+      font-size: 0.5rem; } }
 
 .studio__title {
   position: relative;
@@ -41,6 +44,9 @@ body a {
     padding: 0 1em;
     background-color: #f9f8f3;
     text-align: left; }
+    @media (max-width: 768px) {
+      .studio__title span {
+        font-size: 1.25rem; } }
 
 .studio__subtitle {
   font-size: 1.25rem;

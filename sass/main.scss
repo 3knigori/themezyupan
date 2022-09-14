@@ -24,6 +24,9 @@ body {
     font-weight: bold;
     padding: 10px 15px;
     margin: 0;
+    @media (max-width: 768px) {
+      font-size: 0.5rem;
+    }
   }
   &__title {
     position: relative;
@@ -46,6 +49,9 @@ body {
       padding: 0 1em;
       background-color: #f9f8f3;
       text-align: left;
+      @media (max-width: 768px) {
+        font-size: 1.25rem;
+      }
     }
   }
   &__subtitle {
