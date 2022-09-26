@@ -105,6 +105,76 @@ get_header("studio"); ?>
               </a>
             </div>
           </div>
+          <div class="col-6 col-md-4">
+            <div class="studio__item">
+              <a data-modal="bs-lightbox" href="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_14.jpg" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_14.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="studio__item">
+              <a data-modal="bs-lightbox" href="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_15.jpg" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_15.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="studio__item">
+              <a data-modal="bs-lightbox" href="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_16.jpg" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_16.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="studio__item">
+              <a data-modal="bs-lightbox" href="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_17.jpg" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_17.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="studio__item">
+              <a data-modal="bs-lightbox" href="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_18.jpg" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_18.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="studio__item">
+              <a data-modal="bs-lightbox" href="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_19.jpg" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_19.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="studio__item">
+              <a data-modal="bs-lightbox" href="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_20.jpg" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_20.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="studio__item">
+              <a data-modal="bs-lightbox" href="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_21.jpg" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_21.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="studio__item">
+              <a data-modal="bs-lightbox" href="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_22.jpg" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_22.jpg">
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="studio__item">
+              <a data-modal="bs-lightbox" href="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_23.jpg" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioC/studioC_photo_23.jpg">
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

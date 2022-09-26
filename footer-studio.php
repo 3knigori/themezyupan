@@ -23,8 +23,13 @@
       <dl class="information">
         <dt>STUDIO ZYUPAN</dt>
         <dd>
+          <p class="logo">
+            <span class="logo1"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/studio/logo_studio.png"></span>
+            <span class="logo2"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/studio/logo_cafe.png"></span>
+          </p>
           <p class="tel">TEL&#058;090-3945-7449</p>
-          <p class="day">営業時間&#058;00:00 ~ 00:00</p>
+          <p class="day">営業時間&#058;11:00 ~ 17:00</p>
+          <p class="day">定休日&#058;水曜日</p>
         </dd>
       </dl>
       <ul class="nav justify-content-center">
